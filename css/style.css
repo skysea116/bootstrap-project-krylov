@@ -1,3 +1,4 @@
+
 body {
      background-color: #262626;
      font-family: 'Open Sans', sans-serif
@@ -19,10 +20,10 @@ body {
 .navbar-nav {
      border: 3px solid #e1b838;
      font-size: 29px;
-     width: 930px;
+     max-width: 930px;
 }
 .nav-link {
-     width: 175px;
+     min-width: 175px;
      height: 61px;
      padding: 0;
      display: flex;
@@ -31,4 +32,18 @@ body {
 }
 .navbar-collapse {
      flex-grow: 0;
+}
+.navbar {
+     margin-top: 35px;
+}
+/*Слайдер*/
+.carousel-control-next-icon {
+     color:#e1b838;
+}
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e1b838' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e1b838' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
