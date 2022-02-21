@@ -21,6 +21,7 @@ body {
      border: 3px solid #e1b838;
      font-size: 29px;
      max-width: 930px;
+     margin-left: 71px;
 }
 .nav-link {
      min-width: 175px;
@@ -35,6 +36,9 @@ body {
 }
 .navbar {
      margin-top: 35px;
+}
+.navbar>.container-fluid {
+justify-content: center;
 }
 /*Слайдер*/
 .carousel {
@@ -95,6 +99,7 @@ body {
      background-image: url(../img/bg.jpg);
      margin-top: 62px;
      margin-bottom: 62px;
+     padding-bottom: 30px;
 }
 .dish2 {
      max-width: 300px;
@@ -102,10 +107,6 @@ body {
      margin-left: 131px;
      margin-right: 131px;
 }
-.dish img, .dish2 img {
-    shadow: 0 13px 9px #262626;
-}
-
 .card {
      background-color: #ffffff00;
      color: white;
@@ -138,4 +139,44 @@ body {
 .firstR {
      margin-top: 31px;
      margin-bottom: 45px;
+}
+
+/*Скидка*/
+.discount {
+     background-image: url(../img/bg.jpg);
+     margin-bottom: 62px;
+}
+.disc-text {
+     color: #e1b838;
+     text-align: right;
+     font-size: 45px;
+     margin-top: 80px;
+     
+}
+.disc-block {
+     margin-bottom: 127px;
+}
+.disc-block, .disc-logo {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     margin-right: 100px;
+}
+.btn-disc {
+     width: 147px;
+     max-height: 40px;
+     border-radius: 0;
+     font-weight: 600;
+     font-size: 21px;
+}
+.disc-logo img {
+     max-width: 156px;
+     max-height: 98px;
+     margin-bottom: 23px;
+}
+.disc-logo p {
+     font-family: 'Fjalla One', sans-serif;
+     color: #e1b838;
+     font-size: 31px;
+     letter-spacing: 3px;
 }
