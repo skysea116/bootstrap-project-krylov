@@ -37,13 +37,105 @@ body {
      margin-top: 35px;
 }
 /*Слайдер*/
-.carousel-control-next-icon {
-     color:#e1b838;
-}
-.carousel-control-prev-icon {
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e1b838' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+.carousel {
+     margin-top: 24px;
 }
 
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e1b838' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+.slide-text-in-border {
+     border: 6px solid #e1b838;
+     width: 45%;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 800;
+     font-size: 28px;
+     transform: translateY(-95%);
+     
+}
+.slide-text-in-border  h5 {
+     background-color: #e1b838;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 800;
+     font-size: 35px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 70px;
+     color: #262626;
+     margin-top: 0;
+}
+.slide-border-text{
+     margin: 8px;
+}
+.carousel-caption {
+     display: flex !important; 
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+.second-border-text {
+     font-size: 32px;
+     letter-spacing: 3px;
+     transform: translateY(-90px);
+
+}
+/*Menu*/
+.dish {
+     max-width: 267px;
+     max-height: 259px;
+}
+.dish-menu h4 {
+     font-size: 50px;
+     color: white;
+     font-family: 'Fjalla One', sans-serif;
+     padding-top: 30px;
+     margin-bottom: 30px;
+     text-shadow: 0 13px 9px #262626;
+     
+}
+.dish-menu {
+     background-image: url(../img/bg.jpg);
+     margin-top: 62px;
+     margin-bottom: 62px;
+}
+.dish2 {
+     max-width: 300px;
+     max-height: 243px;
+     margin-left: 131px;
+     margin-right: 131px;
+}
+.dish img, .dish2 img {
+    shadow: 0 13px 9px #262626;
+}
+
+.card {
+     background-color: #ffffff00;
+     color: white;
+}
+.card2 {
+     margin-left: 131px;
+     margin-right: 131px;
+}
+.card-body {
+     border: 3px solid #e1b838;
+     padding: 0;
+}
+.card-title {
+     background-color: #e1b838;
+     height: 44px;
+     display: flex;
+     align-items: center;
+     color: #262626;
+     padding-left: 10px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 800;
+     font-size: 24px;
+}
+.card-text {
+     padding-left: 10px;
+}
+.last {
+     padding-bottom: 18px;
+}
+.firstR {
+     margin-top: 31px;
+     margin-bottom: 45px;
 }
