@@ -3,7 +3,9 @@ body {
      background-color: #262626;
      font-family: 'Open Sans', sans-serif
 }
-
+a {
+     text-decoration: none;
+}
 /*Хедер*/
 .navbar-dark .navbar-nav .nav-link {
      color: #e1b838;
@@ -179,4 +181,195 @@ justify-content: center;
      color: #e1b838;
      font-size: 31px;
      letter-spacing: 3px;
+}
+
+/*Специальное*/
+.special {
+     background-image: url(../img/bg.jpg);
+     height: 707px;
+     margin-bottom: 165px;
+     position: relative;
+     z-index: 2;
+}
+.special-border-block {
+     border: 5px solid #e1b838;
+     width: 546px;
+     margin-right: 300px;
+}
+.special-border-block h5 {
+     background-color: #e1b838;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 800;
+     text-align: center;
+     font-size: 38px;
+}
+.special-border-block p {
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 800;
+     text-align: center;
+     font-size: 35px;
+     color: white;
+     padding: 21px;
+}
+.text-special {
+     width: 480px;
+}
+.text-special p {
+     color: white;
+     font-size: 23px;
+}
+.col-spec {
+     width: 620px;
+}
+.row-spec {
+    padding-top: 64px;
+    padding-left: 99px;
+}
+.small-pic {
+     max-width: 305px;
+     margin-right: 60px;
+}
+.big-dish {
+     position: relative;
+     z-index: 4;
+     bottom: 570px;
+     width: 741px;
+}
+.fork-knife {
+     position: relative;
+     z-index: 4;
+     bottom: 551px;
+     width: 335px;
+}
+/*Метод*/
+.method {
+     background-image: url(../img/bg.jpg);
+     position: relative;
+     z-index: 2;
+     margin-top: -738px;
+     height: 707px;
+     overflow: hidden;
+     margin-bottom: 62px;
+}
+.method-pic {
+     width: 538px;
+     margin-top: 180px;
+}
+.method-card, .music-card {
+     width: 586px;
+     border: 7px solid #e1b838;
+}
+.method-card h5 {
+     font-size: 48px;
+     padding-top: 41px;
+     padding-bottom: 41px;
+     padding-left: 30px
+}
+.method-card p{
+     font-size: 35px;
+     padding-left: 30px;
+     padding-bottom: 20px;
+}
+/*Музыка*/
+.music {
+     background-image: url(../img/bg.jpg);
+     height: 707px;
+     overflow: hidden;
+     margin-bottom: 62px;
+}
+
+.music-card  p {
+     font-size: 43px;
+     text-align: center;
+     font-weight: 800;
+}
+.music-card  p:last-child {
+     padding-bottom: 10px;
+     font-weight: 400;
+}
+.music-card h5 {
+     text-align: center;
+     font-size: 48px;
+     padding-top: 41px;
+     padding-bottom: 41px;
+}
+.music-card .card-title {
+     display: flex;
+     justify-content: center;
+}
+.music-text {
+     color: white;
+     font-size: 31px;
+
+}
+.col-music {
+     margin-left:94px;
+}
+.row-music {
+     padding-top: 64px;
+}
+.music-pic {
+     max-width: 1390px;
+     transform: translateX(-50px);
+}
+
+/*Футер*/
+.footer-logo {
+     max-width: 156px;
+     max-height: 98px;
+}
+.footer-head {
+     color: #e1b838;
+     font-family: 'Fjalla One', sans-serif;
+     font-size: 38px;
+     margin-top: 33px;
+     text-shadow: 0 8px 14px #000000;
+     margin-bottom: 53px;
+}
+footer li {
+     color: white
+}
+.footer-card p {
+     font-size: 21px;
+     text-align: center;
+     margin-bottom: 0;
+}
+.footer-card p:last-child {
+     padding-bottom: 8px;
+}
+.footer-card h5 {
+     font-size: 29px;
+}
+.footer-card .card-title {
+     display: flex;
+     justify-content: center;
+}
+.footer-card {
+     width: 374px;
+}
+footer a {
+     color: white;
+     font-size: 21px;
+     line-height: 41px;
+}
+
+.socials img {
+     width: 33px;
+}
+.socials {
+     width: 344px;
+}
+.socials p {
+     margin-top: 5px;
+     font-size: 23px;
+     color: #e1b838;
+}
+.adress {
+     font-size: 30px;
+     color: white;
+     margin-right: 290px;
+}
+.soc-adr-row {
+     margin-top: 33px;
+     margin-bottom: 33px;
 }
